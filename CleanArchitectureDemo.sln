@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clean.ApplicationCore", "Clean.ApplicationCore", "{15E51E07-DBE5-4523-85AA-ED0F5CCB024F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationCore", "ApplicationCore", "{15E51E07-DBE5-4523-85AA-ED0F5CCB024F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clean.Domain", "Clean.Domain", "{AF8EF289-20E4-4920-879B-25C36B679BFF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{AF8EF289-20E4-4920-879B-25C36B679BFF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clean.Infrastructure.Ioc", "Clean.Infrastructure.Ioc", "{D8E1B014-F531-474B-83F7-0C556C107504}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.Ioc", "Infrastructure.Ioc", "{D8E1B014-F531-474B-83F7-0C556C107504}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clean.Infrastructure.Data", "Clean.Infrastructure.Data", "{4F62D6E1-9D9B-40EA-9176-EB8FA42DE190}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.Data", "Infrastructure.Data", "{4F62D6E1-9D9B-40EA-9176-EB8FA42DE190}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clean.UI", "Clean.UI", "{90173FB5-76E4-4D78-BAB9-8AB388AFBC1A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{90173FB5-76E4-4D78-BAB9-8AB388AFBC1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clean.Mvc", "Clean.Mvc\Clean.Mvc.csproj", "{84C18CA6-50AF-4C10-8842-0B05D010C03E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clean.Mvc", "Clean.Mvc\Clean.Mvc.csproj", "{84C18CA6-50AF-4C10-8842-0B05D010C03E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
