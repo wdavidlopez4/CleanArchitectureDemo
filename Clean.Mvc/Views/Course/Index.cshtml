@@ -1,0 +1,16 @@
+﻿@model Clean.ApplicationCore.ViewModels.CourseVM
+
+    <div class="container">
+        <div class="row">
+
+            @foreach(var course in Model.Courses)
+            {
+                <img src="@course.ImagenURL" class="img-fluid" alt="Responsive image">
+                <span>@course.Name</span>
+                <p class="course-letra">@course.DescriptionAttribute</p>
+            }
+
+        </div>
+    </div>
+
+
