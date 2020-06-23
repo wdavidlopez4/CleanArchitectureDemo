@@ -4,10 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using Clean.ApplicationCore.Interfaces;
 using Clean.ApplicationCore.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Clean.Mvc.Controllers
 {
+    [Authorize]
     public class CourseController : Controller
     {
         private readonly ICourseService courseService;
