@@ -7,6 +7,6 @@ namespace Clean.ApplicationCore.Interfaces
 {
     public interface ICourseService
     {
-        public IEnumerable<CourseVM> GetCourse();
+        public CourseVM GetCourse();
     }
 }
