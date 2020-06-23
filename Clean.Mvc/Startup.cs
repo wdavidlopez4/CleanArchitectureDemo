@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Clean.Infrastructure.Data.Context;
+using Clean.Infrastructure.Ioc;
 
 namespace Clean.Mvc
 {
@@ -40,6 +41,9 @@ namespace Clean.Mvc
             //entity framework db context
             services.AddDbContext<UniversityDbContext>(
                 options => options.UseSqlServer(Configuration.GetConnectionString("UniversityConnection")));
+
+            //configurar servicios de IOC
+            RegisterServices(services);
 
         }
 
@@ -72,6 +76,12 @@ namespace Clean.Mvc
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
+        }
+
+        //registramos los servicios
+        private static void RegisterServices(IServiceCollection services)
+        {
+            DependencyContainer.RegisterServices(services);
         }
     }
 }
